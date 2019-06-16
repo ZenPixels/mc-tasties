@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tasties",
+  "version": "${version}",
+
+  "name": "Violet's Tasties",
+  "description": "Violet's food and recipes",
+  "authors": [
+    "ZenPixels"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ZenPixels",
+    "sources": "https://github.com/ZenPixels/mc-tasties"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tasties/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zenpixels.tasties.TastiesMod"
+    ]
+  },
+  
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
