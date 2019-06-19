@@ -1,21 +1,13 @@
 package net.zenpixels.tasties.items;
 
-// import java.util.List;
-// import net.minecraft.client.item.TooltipContext;
-// import net.minecraft.entity.LivingEntity;
-// import net.minecraft.entity.player.HungerManager;
-// import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.FoodItemSetting;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.FoodItemSetting;
-// import net.minecraft.sound.SoundEvents;
-// import net.minecraft.sound.SoundCategory;
-
-// import net.minecraft.util.Hand;
-// import net.minecraft.util.math.BlockPos;
-// import net.minecraft.util.math.Vec3d;
-// import net.minecraft.world.World;
+import net.minecraft.world.World;
 
 public class CoffeeItem extends Item {
   public static final String ITEM_ID = "coffee";
@@ -28,5 +20,11 @@ public class CoffeeItem extends Item {
   public CoffeeItem() {
     super(new Item.Settings().itemGroup(ItemGroup.FOOD)
       .food(FOOD_SETTING));
-	}
+  }
+  
+  protected void onFoodEaten(ItemStack stack, World world, PlayerEntity player) {
+    if (!world.isClient) {
+      player.addPotionEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 10, true, true));
+    }
+  }
 }

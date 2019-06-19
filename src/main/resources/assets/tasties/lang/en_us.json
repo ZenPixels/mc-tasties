@@ -2,5 +2,11 @@
     "itemGroup.tasties.tasties_group": "Tasties",
 
     "item.tasties.coffee":"Coffee",
-    "item.tasties.coffee.tooltip":"Hot cup of Joe"
+    "item.tasties.coffee.tooltip":"Hot cup of Joe",
+
+    "item.tasties.coffee_beans":"Coffee Beans",
+    "item.tasties.coffee_beans.tooltip":"Fresh coffee beans",
+
+    "item.tasties.roasted_coffee_beans":"Roasted Coffee Beans",
+    "item.tasties.roasted_coffee_beans.tooltip":"Ready to brew"
 }

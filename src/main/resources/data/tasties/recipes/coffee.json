@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+          "item": "tasties:roasted_coffee_beans",
+          "count": 1
+        },
+        {
+          "item": "minecraft:potion",
+          "count": 1
+        }
+      ],
+    "result": {
+        "item": "tasties:coffee"
+    }
+}
