@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "tasties:item/coffee"
+		"layer0": "tasties:item/rice"
 	}
 }

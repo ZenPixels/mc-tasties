@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+          "item": "tasties:rice",
+          "count": 1
+        },
+        {
+          "item": "minecraft:salmon",
+          "count": 1
+        },
+        {
+          "item": "minecraft:kelp",
+          "count": 1
+        }
+      ],
+    "result": {
+        "item": "tasties:sushi"
+    }
+}

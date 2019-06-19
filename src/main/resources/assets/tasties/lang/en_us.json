@@ -1,12 +1,21 @@
 {
     "itemGroup.tasties.tasties_group": "Tasties",
 
+    "item.tasties.cherry_pie":"Cherry Pie",
+    "item.tasties.cherry_pit.tooltip":"Delicious cherry pie",
+
     "item.tasties.coffee":"Coffee",
     "item.tasties.coffee.tooltip":"Hot cup of Joe",
 
     "item.tasties.coffee_beans":"Coffee Beans",
     "item.tasties.coffee_beans.tooltip":"Fresh coffee beans",
 
+    "item.tasties.rice":"Rice",
+    "item.tasties.rice.tooltip":"Rice",
+
     "item.tasties.roasted_coffee_beans":"Roasted Coffee Beans",
-    "item.tasties.roasted_coffee_beans.tooltip":"Ready to brew"
+    "item.tasties.roasted_coffee_beans.tooltip":"Ready to brew",
+
+    "item.tasties.sushi":"Sushi",
+    "item.tasties.sushi.tooltip":"Fresh sushi"
 }
