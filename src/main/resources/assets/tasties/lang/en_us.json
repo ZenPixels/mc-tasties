@@ -1,6 +1,4 @@
 {
-    "itemGroup.tasties.tasties_group": "Tasties",
-
     "item.tasties.cherry_pie":"Cherry Pie",
     "item.tasties.cherry_pit.tooltip":"Delicious cherry pie",
 
@@ -16,6 +14,11 @@
     "item.tasties.roasted_coffee_beans":"Roasted Coffee Beans",
     "item.tasties.roasted_coffee_beans.tooltip":"Ready to brew",
 
+    "block.tasties.stove":"Stove",
+    "block.tasties.stove.tooltip":"Cook some treats",
+
     "item.tasties.sushi":"Sushi",
-    "item.tasties.sushi.tooltip":"Fresh sushi"
+    "item.tasties.sushi.tooltip":"Fresh sushi",
+
+    "itemGroup.tasties.tasties_items": "Cool Stuff §3(Tasties)"
 }

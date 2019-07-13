@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "tasties:block/stove" },
+        "facing=south": { "model": "tasties:block/stove", "y": 180 },
+        "facing=west":  { "model": "tasties:block/stove", "y": 270 },
+        "facing=east":  { "model": "tasties:block/stove", "y": 90 }
+    }
+}

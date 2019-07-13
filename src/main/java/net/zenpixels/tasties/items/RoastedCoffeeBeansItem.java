@@ -7,6 +7,6 @@ public class RoastedCoffeeBeansItem extends Item {
   public static final String ITEM_ID = "roasted_coffee_beans";
 
   public RoastedCoffeeBeansItem() {
-    super(new Item.Settings().itemGroup(ItemGroup.FOOD));
+    super(new Item.Settings().group(ItemGroup.FOOD));
 	}
 }
