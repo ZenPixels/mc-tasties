@@ -6,4 +6,3 @@ Known issues:
 * Stove crafting interface doesn't actually craft
 * Coffee speed boost only works once per session
 * Some items don't have icons
-* Creative tab has broken icon image

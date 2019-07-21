@@ -1,6 +1,7 @@
 package net.zenpixels.tasties.init;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.block.Material;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
@@ -12,9 +13,8 @@ import net.zenpixels.tasties.TastiesMod;
 import net.zenpixels.tasties.items.*;
 
 public class Items {
-    private static final Item ICON_ITEM = new BaseItem("icon");
-    public static final ItemGroup TASTIES_GROUP = FabricItemGroupBuilder.build(new Identifier(TastiesMod.MOD_ID, "tasties_items"), () -> new ItemStack(ICON_ITEM));
-
+    public static final ItemGroup TASTIES_GROUP = FabricItemGroupBuilder.build(new Identifier(TastiesMod.MOD_ID, "tasties_items"), () -> new ItemStack(Registry.ITEM.get(new Identifier("minecraft:cake"))));
+    
     // Base Items
     private static final BaseItem ROASTED_COFFEE_BEANS_ITEM = new BaseItem("roasted_coffee_beans");
 
