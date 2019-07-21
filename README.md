@@ -7,13 +7,13 @@ A test Minecraft mod for adding food and cooking items to 1.14+ Minecraft
 ### Crafting Blocks
 * Stove
 
-### New Food 
+### Food 
 * Cherry Pie
 * Coffee
 * Rice
 * Sushi
 
-#### Recipes
+### Recipes
 * Coffee
 
 ## Known issues:
